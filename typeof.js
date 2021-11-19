@@ -17,8 +17,8 @@ console.log(typeof function() { } === "function");
 
 //함수는 객체다
 //함수의 길이 2 는 인자의 개수
-function a(b, c) {}
-console.log(a.length); 
+function func1(b, c) {}
+console.log(func1.length); 
 
 console.log(typeof [1, 2, 3] === "object");
 
